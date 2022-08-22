@@ -1,4 +1,4 @@
-package com.odebar
+package com.odebar.basic
 
 import java.sql.DriverManager
 

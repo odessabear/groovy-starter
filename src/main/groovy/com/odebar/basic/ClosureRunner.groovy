@@ -1,4 +1,4 @@
-package com.odebar
+package com.odebar.basic
 
 import java.util.function.Function
 import java.util.stream.Stream

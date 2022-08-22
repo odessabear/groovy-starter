@@ -1,4 +1,4 @@
-package com.odebar;
+package com.odebar.basic;
 
 public class Person {
     private final Integer id;

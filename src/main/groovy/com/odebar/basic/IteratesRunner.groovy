@@ -1,4 +1,4 @@
-package com.odebar
+package com.odebar.basic
 
 class IteratesRunner {
     static void main(String[] args) {

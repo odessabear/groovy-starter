@@ -1,4 +1,4 @@
-package com.odebar
+package com.odebar.basic
 
 def name = "Ivan"
 def value = 'Hello "Hi"'

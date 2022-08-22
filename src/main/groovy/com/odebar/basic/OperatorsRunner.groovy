@@ -1,4 +1,4 @@
-package com.odebar
+package com.odebar.basic
 
 assert 1 + 2 == 3
 assert 4 + 3 == 7

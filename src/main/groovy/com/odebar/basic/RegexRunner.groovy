@@ -1,4 +1,4 @@
-package com.odebar
+package com.odebar.basic
 
 import java.util.regex.Matcher
 import java.util.regex.Pattern

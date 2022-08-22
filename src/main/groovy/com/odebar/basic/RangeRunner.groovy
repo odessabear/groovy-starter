@@ -1,4 +1,4 @@
-package com.odebar
+package com.odebar.basic
 
 class RangeRunner {
     static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.odebar
+package com.odebar.basic
 
 class LoopsRunner {
     static void main(String[] args) {
