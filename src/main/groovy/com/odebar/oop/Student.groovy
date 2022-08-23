@@ -12,10 +12,10 @@ import groovy.util.logging.Slf4j
 @TupleConstructor
 @EqualsAndHashCode
 // the same that 3 previous annotations are - @Canonical
-@Immutable
+//@Immutable
 @Builder
 //@Slf4j
-class Student implements WithId{
+class Student implements WithId {
     String firstName
     String lastName
     Integer age
@@ -34,5 +34,20 @@ class Student implements WithId{
     def propertyMissing(String name) {
         println "missing property $name"
         "default value"
+    }
+
+    def getInfo() {
+        Closure closure = {
+            println(thisObject)
+            println(owner)
+            println(delegate)
+            Closure second = {
+                println(thisObject)
+                println(owner)
+                println(delegate)
+            }
+            second()
+        }
+        closure
     }
 }
